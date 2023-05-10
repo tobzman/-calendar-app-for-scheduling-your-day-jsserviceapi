@@ -2,12 +2,6 @@ $(function () {
   // Get the current day and set it in the header
   $("#currentDay").text(dayjs().format("dddd, MMMM D, YYYY"));
 
-  // Set up options for the scheduler
-  var options = {
-    startHour: 9,
-    endHour: 23,
-  };
-
   // Update the time block classes every 15 seconds
   setInterval(updateTimeBlocks, 15000);
 
@@ -38,6 +32,7 @@ $(function () {
     // Loop through each time block and set its class based on its hour
     $(".time-block").each(function (index, element) {
       var hour = $(element).attr("data-hour");
+      console.log(hour, currentHour);
 
       if (hour < currentHour) {
         $(element).find(".description").addClass("past");
