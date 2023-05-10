@@ -30,8 +30,8 @@ The following resources were used in building the application:
 
 ## Links
 
-![Screenshot1](../Screenshot%201%20calender%20app.png)
-![Screenshot2](../Screenshot%202%20calender%20app.png)
+![Screenshot1](Week5screenshot2.png))
+![Screenshot2](Week5screenshot2.png)
 
 ## Authors
 
